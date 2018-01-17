@@ -26,7 +26,7 @@ github_username:  tianxiongbb
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: rouge
 plugins:
   - jekyll-feed
 
