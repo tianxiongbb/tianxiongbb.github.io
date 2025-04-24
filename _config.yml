@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Tianxiong Yu, Ph.D."
+title                    : "Tianxiong Yu, Ph.D"
 title_separator          : "-"
 name                     : &name "Tianxiong Yo"
 description              : &description "personal description"
