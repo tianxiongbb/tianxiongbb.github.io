@@ -8,3 +8,5 @@ redirect_from:
 ---
 
 I am currently an Instructor at UMass Chan Medical School. My research focuses on using computational methods to study somatic and germline transposon insertions and mutations in koala and human genomes.
+
+Please find my CV [here](/files/CV.pdf).
