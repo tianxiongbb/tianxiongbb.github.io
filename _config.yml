@@ -35,7 +35,7 @@ author:
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=-6W9MDIAAAAJ"
   impactstory      : # URL
-  orcid            : # URL
+  orcid            : "https://orcid.org/0000-0003-1151-4624"
   semantic         : # URL
   pubmed           : # URL
   researchgate     : # URL
@@ -258,7 +258,7 @@ defaults:
       comments: true
   # _publications
   - scope:
-      path: ""
+      path: "_publications"
       type: publications
     values:
       layout: single
