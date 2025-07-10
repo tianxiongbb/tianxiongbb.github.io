@@ -14,4 +14,6 @@ My research has been broadly focuses on using computational methods to study som
 - Transposon transcriptional and post-transcriptional silencing via the piRNA pathway.
 - Single-cell genomics and transcriptomics in human aging and neurodegenerative diseases.
   
-Please find my CV [here](/files/CV.pdf).
+Please find my CV [here](/files/CV.pdf).  
+
+[![Hits](https://hits.sh/tianxiongbb.github.io.svg?view=today-total)](https://hits.sh/tianxiongbb.github.io/)
