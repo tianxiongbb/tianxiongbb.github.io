@@ -10,5 +10,5 @@ tags:
 ---
 
 [Read more](/publication/2025-Cell-KoRVA-adaptive-response)  
-![image](/images/Posts-2025-Cell-Cover-1.jpg)  
+![image](/images/Posts-2025-Cell-Cover-1.jpeg)  
 ![image](/images/Posts-2025-Cell-Cover-2.png)

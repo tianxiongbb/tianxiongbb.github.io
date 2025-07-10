@@ -1,5 +1,5 @@
 ---
-title: 'Poster presentation at the CSHL Retroviruses meeting'
+title: 'Poster presentation at the Mutation in Time and Space meeting'
 date: 2025-04-23
 permalink: /posts/2025-Mutation-in-Space
 tags:
