@@ -1,5 +1,5 @@
 ---
-title: "The piRNA Response to Retroviral Invasion of the Koala Genome"
+title: "The piRNA response to retroviral invasion of the koala genome"
 collection: publications
 category: manuscripts
 permalink: /publication/2019-Cell-KoRVA-innate-response

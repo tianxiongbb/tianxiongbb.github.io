@@ -1,5 +1,5 @@
 ---
-title: "Evolution of KoRV-A Transcriptional Silencing in Wild Koalas"
+title: "Evolution of KoRV-A transcriptional silencing in wild koalas"
 collection: publications
 category: manuscripts
 permalink: /publication/2025-Cell-KoRVA-adaptive-response

@@ -1,5 +1,5 @@
 ---
-title: "Single-cell Transcriptomic and Genomic Changes in the Aging Human Brain"
+title: "Single-cell transcriptomic and genomic changes in the aging human brain"
 collection: publications
 category: manuscripts
 permalink: /publication/2025-Nature-Aging
