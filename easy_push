@@ -1,8 +1,8 @@
 #!/bin/bash
 
 if [ $# -lt 1 ];then
-	echo0 1 $0" message"
-	exit 1
+	echo -e $0" message"
+	exit 0
 fi
 
 git add .
