@@ -1,5 +1,5 @@
 ---
-title: 'Oral presentation at the CSHL Retroviruses meeting'
+title: 'Oral presentation at the ASHG meeting'
 date: 2025-10-17
 permalink: /posts/2025-ASHG-BrainAging
 tags:
