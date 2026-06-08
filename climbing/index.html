@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Worcester V3 Bouldering Finder</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero__shade"></div>
+      <nav class="topbar" aria-label="Page">
+        <a href="#routes">Routes</a>
+        <a href="#plan">Plan</a>
+        <a href="#sources">Sources</a>
+      </nav>
+      <section class="hero__content" aria-labelledby="page-title">
+        <p class="eyebrow">From Burncoat, Worcester MA</p>
+        <h1 id="page-title">Nearby outdoor bouldering around V3</h1>
+        <p class="hero__copy">
+          A compact guide to local bouldering areas, warmups, and V3-ish
+          problems within a reasonable drive from Worcester.
+        </p>
+        <div class="hero__stats" aria-label="Summary">
+          <div>
+            <strong>6</strong>
+            <span>areas</span>
+          </div>
+          <div>
+            <strong>20+</strong>
+            <span>V2-V4 picks</span>
+          </div>
+          <div>
+            <strong>V3</strong>
+            <span>sweet spot</span>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="controls" aria-label="Filters">
+        <div class="control-group">
+          <label for="grade-filter">Grade focus</label>
+          <select id="grade-filter">
+            <option value="all">All grades shown</option>
+            <option value="v3" selected>V3-friendly</option>
+            <option value="warmup">Warmups V0-V2</option>
+            <option value="project">Projects V4+</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label for="distance-filter">Drive from Burncoat</label>
+          <select id="distance-filter">
+            <option value="all">Any listed drive</option>
+            <option value="20">20 min or less</option>
+            <option value="35">35 min or less</option>
+            <option value="50">50 min or less</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label for="style-filter">Style</label>
+          <select id="style-filter">
+            <option value="all">Any style</option>
+            <option value="slab">Slab</option>
+            <option value="traverse">Traverse</option>
+            <option value="overhang">Overhang</option>
+            <option value="technical">Technical</option>
+          </select>
+        </div>
+      </section>
+
+      <section class="overview" id="plan" aria-labelledby="plan-title">
+        <div class="map-card" aria-label="Area map sketch">
+          <div class="map-card__grid"></div>
+          <span class="map-dot map-dot--home">Burncoat</span>
+          <span class="map-dot map-dot--rocky">Rocky Pond</span>
+          <span class="map-dot map-dot--tivnan">Tivnan</span>
+          <span class="map-dot map-dot--tatnuck">Tatnuck</span>
+          <span class="map-dot map-dot--gods">God's Acre</span>
+          <span class="map-dot map-dot--douglas">Douglas</span>
+          <span class="map-dot map-dot--rockhouse">Rock House</span>
+        </div>
+        <div class="plan-copy">
+          <h2 id="plan-title">A gentle progression</h2>
+          <p>
+            Start close to home at Tivnan, Tatnuck, or God's Acre to get used to
+            Central MA granite. When you want a fuller day, Rocky Pond has the
+            best concentration of V0-V4 problems in this list.
+          </p>
+          <p>
+            Grades outdoors can feel punchy compared with the gym. Bring pads,
+            a spotter, bug spray, and a willingness to warm up slowly.
+          </p>
+        </div>
+      </section>
+
+      <section class="routes-section" id="routes" aria-labelledby="routes-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Route Finder</p>
+            <h2 id="routes-title">Bouldering areas and V3-ish problems</h2>
+          </div>
+          <p id="result-count" class="result-count" aria-live="polite"></p>
+        </div>
+        <div id="route-grid" class="route-grid"></div>
+      </section>
+
+      <section class="sources" id="sources" aria-labelledby="sources-title">
+        <h2 id="sources-title">Access notes and sources</h2>
+        <p>
+          This page is a personal planning aid. Before heading out, check access,
+          parking, ticks, hunting seasons, wet-rock etiquette, and current route
+          comments on the linked pages.
+        </p>
+        <ul>
+          <li><a href="https://www.mountainproject.com/area/118978633/central-ma" target="_blank" rel="noreferrer">Mountain Project: Central MA</a></li>
+          <li><a href="https://www.mountainproject.com/area/120242338/rocky-pond" target="_blank" rel="noreferrer">Mountain Project: Rocky Pond</a></li>
+          <li><a href="https://www.mountainproject.com/area/121233351/tivnan-boulder" target="_blank" rel="noreferrer">Mountain Project: Tivnan Boulder</a></li>
+          <li><a href="https://www.mountainproject.com/area/119005846/tatnuck-boulder" target="_blank" rel="noreferrer">Mountain Project: Tatnuck Boulder</a></li>
+          <li><a href="https://www.mountainproject.com/area/121692794/gods-acre-worcester" target="_blank" rel="noreferrer">Mountain Project: God's Acre Worcester</a></li>
+          <li><a href="https://www.mountainproject.com/area/119369697/douglas-state-forest" target="_blank" rel="noreferrer">Mountain Project: Douglas State Forest</a></li>
+          <li><a href="https://www.mountainproject.com/area/121168841/rock-house-reservation" target="_blank" rel="noreferrer">Mountain Project: Rock House Reservation</a></li>
+        </ul>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
