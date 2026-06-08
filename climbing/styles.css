@@ -264,17 +264,23 @@ select {
 .map-dot--gods { left: 31%; top: 67%; }
 .map-dot--douglas { left: 48%; top: 83%; }
 .map-dot--rockhouse { left: 73%; top: 75%; }
+.map-dot--hammond { left: 84%; top: 47%; }
+.map-dot--lincoln { left: 67%; top: 91%; }
+.map-dot--lynn { left: 86%; top: 28%; }
+.map-dot--farley { left: 10%; top: 24%; }
 
 .plan-copy h2,
 .section-heading h2,
-.sources h2 {
+.sources h2,
+.gear h2 {
   margin: 0;
   font-size: clamp(1.85rem, 4vw, 3.1rem);
   line-height: 1.06;
 }
 
 .plan-copy p,
-.sources p {
+.sources p,
+.gear p {
   max-width: 650px;
   color: var(--muted);
   font-size: 1.02rem;
@@ -434,6 +440,41 @@ select {
   text-align: center;
 }
 
+.gear {
+  margin: 62px 0 12px;
+  padding: 28px 0;
+  border-top: 1px solid var(--line);
+}
+
+.gear-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 18px;
+}
+
+.gear-grid article {
+  min-height: 176px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+}
+
+.gear-grid h3 {
+  margin: 0 0 8px;
+  font-size: 1.12rem;
+}
+
+.gear-grid p {
+  margin: 0;
+}
+
+.gear-grid a {
+  color: var(--forest);
+  font-weight: 900;
+}
+
 .sources {
   margin: 62px 0 46px;
   padding-top: 28px;
@@ -464,7 +505,8 @@ select {
   .hero__stats,
   .controls,
   .overview,
-  .route-grid {
+  .route-grid,
+  .gear-grid {
     grid-template-columns: 1fr;
   }
 

@@ -8,7 +8,7 @@ const areas = [
     bestFor: "Best first full session",
     summary:
       "The most concentrated nearby circuit: lots of problems, useful warmups, and enough V3-V4 options to make a real outdoor day.",
-    source: "https://www.mountainproject.com/area/120242338/rocky-pond",
+    source: "https://www.mountainproject.com/area/123059768/rocky-pond",
     map: "https://www.google.com/maps/search/?api=1&query=Rocky+Pond+Boylston+MA",
     problems: [
       { name: "Wormhole", grade: "V1/2", type: "warmup" },
@@ -19,7 +19,7 @@ const areas = [
     ]
   },
   {
-    name: "Tivnan Boulder",
+    name: "Tivnan Park Boulders",
     town: "Worcester",
     drive: 16,
     gradeBand: "V0-V4",
@@ -27,8 +27,8 @@ const areas = [
     bestFor: "Closest low-commitment session",
     summary:
       "A small Worcester boulder with approachable grades and several V3-ish lines. Good when you want to touch real rock without driving far.",
-    source: "https://www.mountainproject.com/area/121233351/tivnan-boulder",
-    map: "https://www.google.com/maps/search/?api=1&query=Tivnan+Boulder+Worcester+MA",
+    source: "https://www.mountainproject.com/area/113480748/tivnan-park-boulders",
+    map: "https://www.google.com/maps/search/?api=1&query=Tivnan+Park+Boulders+Worcester+MA",
     problems: [
       { name: "The Fix", grade: "V2", type: "warmup" },
       { name: "Chicken Chin", grade: "V3-", type: "v3" },
@@ -46,7 +46,7 @@ const areas = [
     bestFor: "After-work granite mileage",
     summary:
       "Another in-town Worcester option with several V3 to V4-leaning problems. Expect compact climbing and old-school outdoor grading.",
-    source: "https://www.mountainproject.com/area/119005846/tatnuck-boulder",
+    source: "https://www.mountainproject.com/area/115126912/tatnuck-boulder",
     map: "https://www.google.com/maps/search/?api=1&query=Tatnuck+Boulder+Worcester+MA",
     problems: [
       { name: "Thumbs Up", grade: "V3", type: "v3" },
@@ -84,14 +84,14 @@ const areas = [
     bestFor: "Big local destination",
     summary:
       "A larger destination south of Worcester. It is better for a planned day than a quick lap, with many more climbs than the in-town boulders.",
-    source: "https://www.mountainproject.com/area/119369697/douglas-state-forest",
+    source: "https://www.mountainproject.com/area/120469887/douglas-state-forest",
     map: "https://www.google.com/maps/search/?api=1&query=Douglas+State+Forest+MA+bouldering",
     problems: [
       { name: "Diagon Alley", grade: "V3", type: "v3" },
       { name: "Squirrel Cave", grade: "V3", type: "v3" },
-      { name: "Trailside Arete", grade: "V4", type: "project" },
-      { name: "The Squeeze", grade: "V4", type: "project" },
-      { name: "Harry Potter", grade: "V6", type: "project" }
+      { name: "Double Edged Sword", grade: "V4", type: "project" },
+      { name: "Tipping Point", grade: "V4", type: "project" },
+      { name: "Exodus", grade: "V6", type: "project" }
     ]
   },
   {
@@ -103,7 +103,7 @@ const areas = [
     bestFor: "Scenic moderate mileage",
     summary:
       "A scenic Trustees property with documented bouldering. Treat it as a relaxed exploration day and confirm any property-specific rules first.",
-    source: "https://www.mountainproject.com/area/121168841/rock-house-reservation",
+    source: "https://www.mountainproject.com/area/110113340/rock-house-reservation",
     map: "https://www.google.com/maps/search/?api=1&query=Rock+House+Reservation+West+Brookfield+MA",
     problems: [
       { name: "Johnny Appleseed", grade: "V1", type: "warmup" },
@@ -111,6 +111,82 @@ const areas = [
       { name: "Bubblegum", grade: "V3", type: "v3" },
       { name: "The Scoop", grade: "V3", type: "v3" },
       { name: "Clam Digger", grade: "V4", type: "project" }
+    ]
+  },
+  {
+    name: "Hammond Pond",
+    town: "Newton",
+    drive: 58,
+    gradeBand: "VB-V7",
+    styles: ["technical", "slab"],
+    bestFor: "Metro Boston puddingstone",
+    summary:
+      "A classic Boston-area bouldering and toprope spot on Roxbury puddingstone. Good for a longer half-day when you want more variety.",
+    source: "https://www.thecrag.com/en/climbing/united-states/hammond-pond",
+    map: "https://www.google.com/maps/search/?api=1&query=Hammond+Pond+Reservation+Newton+MA",
+    problems: [
+      { name: "Scrambled", grade: "V0", type: "warmup" },
+      { name: "Crispy", grade: "V1", type: "warmup" },
+      { name: "Backseat Hammond", grade: "V1", type: "warmup" },
+      { name: "Hammond Eggs", grade: "V3", type: "v3" },
+      { name: "Hermit's Cave", grade: "V4", type: "project" }
+    ]
+  },
+  {
+    name: "Lincoln Woods",
+    town: "Lincoln, RI",
+    drive: 62,
+    gradeBand: "V0-V10+",
+    styles: ["overhang", "technical"],
+    bestFor: "Best 90-minute V3 destination",
+    summary:
+      "A major Rhode Island bouldering destination with a deep circuit around V2-V5. Closed at dusk, so start earlier than you think.",
+    source: "https://www.mountainproject.com/area/105913161/lincoln-woods",
+    map: "https://www.google.com/maps/search/?api=1&query=Lincoln+Woods+State+Park+Rhode+Island+bouldering",
+    problems: [
+      { name: "The Wave", grade: "V2", type: "warmup" },
+      { name: "The Lost Problem", grade: "V2+", type: "warmup" },
+      { name: "Peace Dove", grade: "V3", type: "v3" },
+      { name: "The Quiet Buddhist", grade: "V3", type: "v3" },
+      { name: "Pond Cave Traverse", grade: "V4", type: "project" }
+    ]
+  },
+  {
+    name: "Lynn Woods",
+    town: "Lynn",
+    drive: 78,
+    gradeBand: "V0-V10+",
+    styles: ["technical", "overhang"],
+    bestFor: "Huge North Shore circuit",
+    summary:
+      "A very large bouldering area north of Boston. Go with a clear plan or GPS pins because the park is big and the boulders are spread out.",
+    source: "https://www.mountainproject.com/area/105908096/lynn-woods",
+    map: "https://www.google.com/maps/search/?api=1&query=Lynn+Woods+Reservation+bouldering",
+    problems: [
+      { name: "Bear Grease", grade: "V1", type: "warmup" },
+      { name: "Golden Slab", grade: "V1+", type: "warmup" },
+      { name: "Pipefitter", grade: "V3", type: "v3" },
+      { name: "Subway", grade: "V3", type: "v3" },
+      { name: "Push It Along", grade: "V4-", type: "project" }
+    ]
+  },
+  {
+    name: "Farley Ledges",
+    town: "Erving",
+    drive: 86,
+    gradeBand: "V0-V10+",
+    styles: ["technical", "overhang"],
+    bestFor: "Longer western MA day",
+    summary:
+      "A beautiful western MA climbing area with scattered bouldering below the cliffs. Check access and seasonal closures before going.",
+    source: "https://climbgneiss.org/farley-ledges/",
+    map: "https://www.google.com/maps/search/?api=1&query=Farley+Ledges+Erving+MA",
+    problems: [
+      { name: "Lower trail warmups", grade: "V0-V2", type: "warmup" },
+      { name: "Pockety face lines", grade: "V2-V3", type: "v3" },
+      { name: "Trailside compression", grade: "V3", type: "v3" },
+      { name: "Steeper gneiss problems", grade: "V4+", type: "project" },
+      { name: "Access-sensitive projects", grade: "V5+", type: "project" }
     ]
   }
 ];
